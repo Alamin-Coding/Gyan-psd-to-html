@@ -490,7 +490,12 @@
         padding-bottom: 9px;
         width: 300px;
     }
-
+        #bennar .slidPrv4 {
+        left: 10px;
+    }
+    #bennar .slidNext4 {
+        top: 48%;
+    }
     /* About Part */
     #about {
         padding-top: 135px;
