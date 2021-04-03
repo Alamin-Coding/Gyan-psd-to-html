@@ -1,0 +1,591 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    /* Bennar Part */
+    .nivoSlider img {
+        height: 550px;
+    }
+
+    /* About Part */
+    #about {
+        padding-bottom: 50px;
+    }
+
+    .about_text p {
+        padding: 12px;
+    }
+
+    /* Courses Part*/
+    #courses {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .prev_arrow {
+        left: 0;
+    }
+
+    .next_arrow {
+        right: 0;
+    }
+
+    /* Event Part */
+    #event {
+        padding-bottom: 30px;
+    }
+
+    .event_heading p {
+        padding-bottom: 30px;
+    }
+
+    .celendar h5 {
+        left: 34px;
+        font-size: 19px;
+    }
+
+    .calendar header .header-label {
+        padding-right: 65px;
+        font-size: 19px;
+    }
+
+    .calendar header .right.button {
+        right: 15px;
+    }
+
+    .calendar header .left.button {
+        left: 361px;
+    }
+
+    .event_text h4 {
+        font-size: 12px;
+    }
+
+    .event_text p {
+        font-size: 13px;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .event_text a {
+        padding: 0 15px;
+        line-height: 47px;
+    }
+    /* Testimnials Part */
+    .prev_arrow_testi {
+        left: -35px;
+        top: 35%;
+    }
+    .next_arrow_testi {
+        left: -36px;
+        top: 23%;
+    }
+
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .menu_btn {
+        display: none;
+    }
+
+    /* Navbar part */
+    .navbar-nav {
+        float: right;
+        text-align: right;
+
+    }
+
+    .nav-link {
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -ms-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    .nav-link:hover {
+        margin-right: 5px;
+        font-weight: 700;
+    }
+
+    /* Bennar Part */
+    .nivoSlider img {
+        height: 450px;
+    }
+
+    .bennar_text h4 {
+        font-size: 35px;
+    }
+
+    .bennar_text h2 {
+        font-size: 45px;
+    }
+
+    .bennar_text p {
+        padding-top: 13px;
+    }
+
+    /* About Part  */
+    .online_support {
+        width: 76%;
+        top: -64px;
+    }
+
+    .online_support .online_item img {
+        width: 45px;
+    }
+
+    .online_support .online_item p {
+        font-size: 18px;
+    }
+
+    #about {
+        padding-top: 77px;
+    }
+
+    .about_heading p {
+        padding-bottom: 35px;
+    }
+
+    .about_btn {
+        text-align: center;
+    }
+
+    /* Courses Part */
+    .prev_arrow {
+        left: -25px;
+    }
+
+    .next_arrow {
+        right: -25px;
+    }
+
+    /* Counter Part */
+    .coun_item h2 {
+        font-size: 30px;
+    }
+
+    .coun_item p {
+        font-size: 20px;
+    }
+
+    /* Event Part */
+    .event_text h4 {
+        font-size: 24px;
+    }
+
+    .event_text p {
+        font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 31px;
+    }
+
+    .event_text span {
+        font-size: 16px;
+        margin-right: 29px;
+    }
+
+    .event_text a {
+        padding: 0px 26px;
+        line-height: 53px;
+    }
+
+    /* Testimonials */
+    .prev_arrow_testi {
+        left: -26px;
+    }
+
+    .next_arrow_testi {
+        left: -26px;
+    }
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* Navbar Part Start */
+    .navbar {
+        padding-top: 27px;
+        padding-bottom: 18px;
+    }
+
+    /* Bennar Part Start */
+    .nivoSlider img {
+        height: 350px;
+    }
+
+    .bennar_text h4 {
+        font-size: 25px;
+    }
+
+    .bennar_text h2 {
+        font-size: 30px;
+    }
+
+    .bennar_text p {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 9px;
+        width: 489px;
+    }
+
+    .bennar_text a {
+        margin-bottom: 10px;
+    }
+
+    .bennar_text a {
+        font-size: 16px;
+        padding: 0 11px;
+        line-height: 35px;
+    }
+
+    /* Bennar Part End */
+
+    /* About Part Strat */
+    .online_support {
+        width: 77%;
+        top: -58px;
+    }
+
+    .online_support .online_item img {
+        padding-top: 6px;
+        padding-bottom: 0px;
+        width: 30px;
+    }
+
+    .online_support .online_item p {
+        font-size: 16px;
+
+    }
+
+    #about {
+        padding-top: 69px;
+        padding-bottom: 40px;
+    }
+
+    .about_text p {
+        padding: 25px 0;
+        padding-top: 0;
+
+    }
+
+    /* About Part End */
+
+    /* Counter Part Start */
+    #counter_up {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .coun_item p {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    /* Counter Part End */
+
+    /* Courses Part Start */
+    #courses {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .common_heading p {
+        width: 300px;
+    }
+
+    /* Courses Part End */
+
+    /* Event Part */
+    #event {
+        padding-bottom: 10px;
+    }
+
+    .event_heading p {
+        padding-bottom: 7px;
+    }
+
+    .celendar h5 {
+        left: 36px;
+        top: 38px;
+    }
+
+    .calendar header .header-label {
+        padding-right: 105px;
+    }
+
+    .calendar header .right.button {
+        right: 29px;
+    }
+
+    .event_img .date {
+        bottom: 5px;
+        left: 2px;
+    }
+
+    .event_text h4 {
+        font-size: 17px;
+    }
+
+    .event_text p {
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+
+    .event_text span {
+        font-size: 12px;
+    }
+
+    .event_text a {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Tesstimonial Part */
+    #testimonial {
+        padding-top: 25px;
+    }
+
+    .testimonial_heading p {
+        padding-bottom: 38px;
+    }
+
+    .testimon_item .tes_img {
+        width: 35%;
+    }
+
+    .testimon_item .tes_img::before {
+        right: 0;
+        bottom: -5px;
+        width: 129px;
+    }
+
+    .testimon_item .tes_ditails {
+        width: 65%;
+        float: left;
+        padding-top: 0px;
+        padding-bottom: 51px;
+    }
+
+    .testimon_item .tes_ditails p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .testimon_item .tes_ditails h4 {
+        font-size: 17px;
+        padding-top: 3px;
+        padding-bottom: 1px;
+    }
+
+    .next_arrow_testi {
+        left: -17px;
+        top: 21%;
+        padding: 6px 11px;
+    }
+
+    .prev_arrow_testi {
+        left: -17px;
+        top: 71px;
+        padding: 6px 11px;
+    }
+
+    /* Teacher Part */
+    #teacher {
+        padding-top: 30px;
+    }
+
+    .teacher_heading h3 {
+        padding-bottom: 5px;
+    }
+
+    .teacher_heading p {
+        padding-bottom: 20px;
+    }
+
+    .teacher_item {
+        margin-bottom: 30px;
+    }
+
+    /* Blog Part */
+    #blog {
+        padding-bottom: 0px;
+    }
+
+    /* Footer Part */
+    #footer {
+        padding-top: 17px;
+    }
+
+    img {
+        width: 55px;
+    }
+
+    .foot_item p {
+        font-size: 13px;
+        line-height: 22px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .foot_item span {
+        margin-bottom: 20px;
+    }
+
+    .foot_item_2 h5 {
+        padding-top: 17px;
+        padding-bottom: 22px;
+        text-align: center;
+        border-top: 1px solid aliceblue;
+    }
+
+    .foot_link li {
+        margin-bottom: 0px;
+    }
+
+    .foot_item_3 h5 {
+        padding-top: 10px;
+        border-top: 1px solid aliceblue;
+        text-align: center;
+    }
+
+    .common_heading p {
+        width: 400px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+    /* Topbar */
+    #topbar {
+        display: none;
+    }
+
+    /* Bennar Part */
+    .nivoSlider img {
+        height: 300px;
+    }
+
+    .bennar_text {
+        left: 13%;
+        width: 307px;
+    }
+
+    .bennar_text h4 {
+        font-size: 21px;
+    }
+
+    .bennar_text h2 {
+        font-size: 22px;
+    }
+
+    .bennar_text p {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 9px;
+        width: 300px;
+    }
+
+    /* About Part */
+    #about {
+        padding-top: 135px;
+    }
+
+    .online_support {
+        width: 100%;
+        top: 0;
+    }
+
+    .about_heading p {
+        width: 352px;
+        padding-bottom: 30px;
+    }
+
+    .about_text p {
+        padding-top: 0;
+    }
+
+    /* course Part*/
+    .courses_heading p {
+        width: 352px;
+        padding-bottom: 30px;
+    }
+
+    .courses_heading p {
+        padding-top: 0;
+    }
+
+    .prev_arrow {
+        left: 0;
+        padding: 2px 9px;
+    }
+
+    .next_arrow {
+        right: 0;
+        padding: 2px 9px;
+    }
+
+    /* Testimonials Part */
+    .testimonial_heading p {
+        width: 400px;
+    }
+
+    .testimon_item .tes_img {
+        width: 60%;
+        margin-left: 19%;
+    }
+
+    .testimon_item .tes_ditails {
+        width: 100%;
+    }
+
+    .next_arrow_testi {
+        left: 81%;
+        top: 39%;
+    }
+
+    .prev_arrow_testi {
+        left: 10%;
+        top: 38%;
+        z-index: 2000;
+    }
+
+    .testimon_item .tes_ditails {
+        padding-top: 15px;
+    }
+
+    /* Teacher Part */
+    #teacher {
+        padding-top: 30px;
+    }
+
+    .teacher_heading p {
+        width: 400px;
+        padding-bottom: 20px;
+
+    }
+
+    /* blog Part */
+    .blog_heading p {
+        width: 390px;
+    }
+
+    /* Calender */
+    .celendar h5 {
+        left: 68px;
+        top: 14px;
+    }
+
+    .calendar header .left.button {
+        left: 268px;
+    }
+
+    .common_heading p {
+        width: 280px;
+    }
+}
